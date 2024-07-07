@@ -29,7 +29,7 @@ const Hero = () => {
                 />
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I'm Daniel San, AI Developer based in Michigan.
+                    Hi, I&apos;m Daniel San, AI Developer based in Michigan.
                 </p>
 
                 <a href="https://github.com/davila7" target="_blank">
