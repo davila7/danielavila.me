@@ -14,6 +14,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <br />
       </div>
     </main>
   );
