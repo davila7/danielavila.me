@@ -4,8 +4,9 @@ const MagicButton = ({
     title: string; icon: React.ReactNode, position: string; handleClick?: () => void; otherClasses?: string;
 }) => {
   return (
-    <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
-        <span className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`}>
+    <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+    onClick={handleClick}>
+        <span className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full  px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`}>
             {position === 'left' && icon}
             {title}
             {position === 'right' && icon}
