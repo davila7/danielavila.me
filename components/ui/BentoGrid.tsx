@@ -157,7 +157,7 @@ export const BentoGridItem = ({
             )}
 
             {id === 6 && (
-              <div className="mt-50 pt-30 lg:pt-35 lg:mt-40 relative">
+              <div className="mt-5 pt-3 lg:pt-35 lg:mt-40 relative">
                 <div className={`absolute -bottom-5 right-0`}>
                   <Lottie options={{
                       loop: copied,
@@ -169,7 +169,7 @@ export const BentoGridItem = ({
                     }}  />
                   
                   <MagicButton 
-                    title={'Go to Calendly'}
+                    title={'Got to Calendly'}
                     icon={<SiCalendly />}
                     position="left"
                     otherClasses="text-lg lg:text-lg"

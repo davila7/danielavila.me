@@ -60,7 +60,7 @@ export const navItems = [
 
     {
       id: 6,
-      title: "Would you like to schedule a meeting with me?",
+      title: "Would you like to schedule a meeting?",
       description: "",
       className: "lg:col-span-1 md:col-span-1 md:row-span-2",
       imgClassName: "",
