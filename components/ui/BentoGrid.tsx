@@ -51,6 +51,16 @@ export const BentoGridItem = ({
 }) => {
 
   const [copied, setCopied] = useState(false);
+
+  const defaultOptions = {
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   const handleCalendly = () => {
     // abre una nueva ventana con una url
     window.open('https://calendly.com/daniel-evu/45min', '_blank');
@@ -157,25 +167,17 @@ export const BentoGridItem = ({
             )}
 
             {id === 6 && (
-              <div className="mt-5 pt-3 lg:pt-35 lg:mt-40 relative">
-                <div className={`absolute -bottom-5 right-0`}>
-                  <Lottie options={{
-                      loop: copied,
-                      autoplay: copied,
-                      animationData,
-                      rendererSettings: {
-                        preserveAspectRatio: 'xMidYMid slice'
-                      }
-                    }}  />
-                  
+              <div className="mt-5 relative">
+                <div className='absolute -bottom-5 right-0'>
+                  <Lottie options={defaultOptions}  height={200} width={400}  />
+                </div>
                   <MagicButton 
-                    title={'Got to Calendly'}
+                    title={'Go to Calendly'}
                     icon={<SiCalendly />}
                     position="left"
                     otherClasses="text-lg lg:text-lg"
                     handleClick={handleCalendly}
                   />    
-                </div>
               </div>
             )}
         </div>
