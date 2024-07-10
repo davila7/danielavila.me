@@ -1,3 +1,4 @@
 {
-    "CodeGPT.Autocomplete.suggestionDelay": 2000
+    "CodeGPT.Autocomplete.suggestionDelay": 1000,
+    "CodeGPT.Autocomplete.provider": "Ollama - codegemma:code"
 }
