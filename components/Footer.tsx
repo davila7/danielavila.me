@@ -34,6 +34,7 @@ const Footer = () => {
           Copyright © 2024 Daniel San
         </p>
 
+        {/* Social Media Icons */}
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map(({id, img, link}) => (
             <a key={id} href={link} target="_blank">
@@ -45,6 +46,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
+
       </div>
     </footer>
   );
