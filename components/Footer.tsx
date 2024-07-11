@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import { SiCalendly } from "react-icons/si";
+import { LampDemo } from "./ui/LampEffect";
 
 const Footer = () => {
   return (
@@ -17,9 +18,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Unlock the potential of AI in your <span className="text-purple">development journey</span>
-        </h1>
+        <LampDemo></LampDemo>
         <br />
         <a href="https://calendly.com/daniel-evu/45min" target="_blank">
             <MagicButton 

@@ -72,19 +72,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Medium",
+      des: "I write about my experience and what I'm learning in my journey.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: ["/medium.svg"],
+      link: "https://medium.com/@dan.avila7",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Youtube Channel",
+      des: "Videos with tutorials, tips, and tricks for web development and much more.",
+      img: "/youtube.svg",
+      iconLists: [],
+      link: "https://www.youtube.com/channel/UCNabExUbWCar1WvCGWaPNdQ",
     },
     {
       id: 3,

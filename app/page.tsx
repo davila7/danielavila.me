@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
+import Scroll from "@/components/Scroll";
 import { FloatingNav } from "@/components/ui/FloatingNav1";
 import { navItems } from "@/data";
 import { FaHome } from "react-icons/fa";
@@ -15,7 +16,8 @@ export default function Home() {
         />
         <Hero />
         <Grid />
-        {/* <RecentProjects /> */}
+        {/* <Scroll /> */}
+        <RecentProjects />
         <Footer />
         <br />
       </div>
