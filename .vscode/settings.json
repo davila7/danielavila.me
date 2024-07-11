@@ -1,4 +1,5 @@
 {
-    "CodeGPT.Autocomplete.suggestionDelay": 1000,
-    "CodeGPT.Autocomplete.provider": "Ollama - codegemma:code"
+    "CodeGPT.Autocomplete.suggestionDelay": 1500,
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus"
 }

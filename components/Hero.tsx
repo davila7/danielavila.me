@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaGithub } from 'react-icons/fa'
+import { socialMedia } from '@/data'
 
 const Hero = () => {
   return (
@@ -32,13 +33,18 @@ const Hero = () => {
                     Hi, I&apos;m Daniel San, a Chilean AI Engineer based in Michigan.
                 </p>
 
-                <a href="https://github.com/davila7" target="_blank">
-                    <MagicButton 
-                        title='Go to my Github'
-                        icon={<FaGithub />}
-                        position='right'
-                    />
-                </a>
+                <div className="flex items-center md:gap-3 gap-6">
+                    {socialMedia.map((info) => (
+                        <a href={info.link} target="_blank">
+                        <div
+                        key={info.id}
+                        className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                        >
+                        <img src={info.img} alt="icons" width={20} height={20} />
+                        </div>
+                        </a>
+                    ))}
+                </div>
             </div>
         </div>
     </div>

@@ -1,7 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -12,7 +11,7 @@ export const navItems = [
       description: "",
       className: "lg:col-span-1 md:col-span-2 md:row-span-1",
       imgClassName: "",
-      titleClassName: "justify-end",
+      titleClassName: "justify-start",
       img: "",
       spareImg: "",
     },
@@ -38,8 +37,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "I am a software developer passionate about data, cloud infrastructure, and AI tools to optimize programming.",
+      description: " AI Developer 🤖",
       className: "lg:col-span-3 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -206,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/davila7"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/dani_avila7"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/daniel-avila-arias/"
     },
   ];
