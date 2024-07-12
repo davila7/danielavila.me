@@ -1,5 +1,5 @@
 {
-    "CodeGPT.Autocomplete.suggestionDelay": 1500,
+    "CodeGPT.Autocomplete.suggestionDelay": 1000,
     "CodeGPT.apiKey": "Mistral",
-    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus"
+    "CodeGPT.Autocomplete.provider": "Mistral - codestral-latest"
 }
