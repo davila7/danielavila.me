@@ -30,7 +30,7 @@ const Hero = () => {
                 />
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Daniel San, a Chilean AI Engineer based in Michigan.
+                    Hi, I&apos;m Daniel San, a Chilean Developer based in Michigan.
                 </p>
                 <br />
                 <div className="flex items-center md:gap-3 gap-6">

@@ -2,9 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import { socialMedia } from '@/data'
 
 export function LampDemo() {
   return (
+    <div>
     <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
@@ -16,9 +18,10 @@ export function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Unlock the potential of AI in your <span className="text-purple">development journey</span>
+        Follow me on social media to stay up to date on <span className="text-purple">programming, technology, and entrepreneurship.</span>
       </motion.h1>
     </LampContainer>
+    </div>
   );
 }
 

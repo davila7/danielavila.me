@@ -16,7 +16,7 @@ export default function Home() {
         /> */}
         <Hero />
         <Grid />
-        {/* <Scroll /> */}
+        <Scroll />
         <RecentProjects />
         <Footer />
         <br />

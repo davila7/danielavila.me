@@ -7,7 +7,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I'm very flexible with time zone",
+      title: "I work on tools that have a global impact",
       description: "",
       className: "lg:col-span-1 md:col-span-2 md:row-span-1",
       imgClassName: "",
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Medium",
       des: "I write about my experience and what I'm learning in my journey.",
-      img: "/medium.svg",
+      img: "/medium.png",
       iconLists: [],
       link: "https://medium.com/@dan.avila7",
     },
@@ -82,15 +82,15 @@ export const navItems = [
       id: 2,
       title: "Youtube Channel",
       des: "Videos with tutorials, tips, and tricks for web development and much more.",
-      img: "/youtube.svg",
+      img: "/youtube.png",
       iconLists: [],
-      link: "https://www.youtube.com/channel/UCNabExUbWCar1WvCGWaPNdQ",
+      link: "https://www.youtube.com/@daniiielsan",
     },
     {
       id: 3,
       title: "BoxMagic",
       des: "BoxMagic is a Gym Management Software for the LATAM market",
-      img: "/boxmagic.svg",
+      img: "/boxmagic.png",
       iconLists: [],
       link: "https://boxmagicapp.com",
     },
@@ -98,7 +98,7 @@ export const navItems = [
       id: 4,
       title: "CodeGPT",
       des: "CodeGPT is a VSCode extension that seamlessly integrates Gen AI models with your code",
-      img: "/codegpt.svg",
+      img: "/codegpt.png",
       iconLists: [],
       link: "https://codegpt.co",
     },
@@ -218,3 +218,4 @@ export const navItems = [
       link: "https://www.linkedin.com/in/daniel-avila-arias/"
     },
   ];
+  
