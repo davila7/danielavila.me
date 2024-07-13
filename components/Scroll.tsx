@@ -27,7 +27,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-        A great way to clear your mind from programming is by engaging in an activity that allows you to enter "the zone", which is why I love running and cycling.
+        A great way to clear your mind from programming is by engaging in an activity that allows you to enter &quot;the zone&quot;, which is why I love running and cycling.
         <br />
         <br />
         These activities not only provide a physical challenge but also offer a mental escape, allowing me to focus on the present and forget about any coding problems or concerns.
