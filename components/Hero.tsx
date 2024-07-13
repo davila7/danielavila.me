@@ -20,8 +20,8 @@ const Hero = () => {
 
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:mx-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                    Daniel Ávila
+                <h2 className='uppercase tracking-widest text-md md:text-lg lg:text-xl font-bold text-center text-blue-100 max-w-80'>
+                    Daniel Ávila Arias
                 </h2>
 
                 <TextGenerateEffect
@@ -32,7 +32,7 @@ const Hero = () => {
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                     Hi, I&apos;m Daniel San, a Chilean AI Engineer based in Michigan.
                 </p>
-
+                <br />
                 <div className="flex items-center md:gap-3 gap-6">
                     {socialMedia.map(({id, img, link}) => (
                         <a key={id} href={link} target="_blank">

@@ -19,15 +19,6 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <LampDemo></LampDemo>
-        <br />
-        <a href="https://calendly.com/daniel-evu/45min" target="_blank">
-            <MagicButton 
-            title={'Go to Calendly'}
-            icon={<SiCalendly />}
-            position="left"
-            otherClasses="text-lg lg:text-lg"
-            /> 
-        </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
