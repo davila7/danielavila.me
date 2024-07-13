@@ -15,16 +15,6 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
-    // {
-    //   id: 2,
-    //   title: "I'm very flexible with time zone communications",
-    //   description: "",
-    //   className: "",
-    //   imgClassName: "",
-    //   titleClassName: "justify-start",
-    //   img: "",
-    //   spareImg: "",
-    // },
     {
       id: 3,
       title: "My tech stack",
@@ -73,7 +63,7 @@ export const navItems = [
     {
       id: 1,
       title: "Medium",
-      des: "I write about my experience and what I'm learning in my journey.",
+      des: "I write about my experience and what I am learning in my journey.",
       img: "/medium.png",
       iconLists: [],
       link: "https://medium.com/@dan.avila7",
