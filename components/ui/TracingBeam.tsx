@@ -25,26 +25,42 @@ export const TracingBeam = ({
   const contentRef = useRef<HTMLDivElement>(null);
   const [svgHeight, setSvgHeight] = useState(0);
 
-  useEffect(() => {
-    if (contentRef.current) {
-      setSvgHeight(contentRef.current.offsetHeight);
-    }
-  }, []);
+ /**
+ * This React component uses the useEffect and useSpring hooks to animate 
+ * the vertical position of elements based on the scroll progress.
+ * The height of the SVG is dynamically set based on the content's height.
+ */
 
-  const y1 = useSpring(
+useEffect(() => {
+    // Check if contentRef is currently assigned to a DOM element
+    if (contentRef.current) {
+        // Set the SVG height based on the current height of the content
+        setSvgHeight(contentRef.current.offsetHeight);
+    }
+}, []); // Empty dependency array means this runs once after the initial render
+
+// Create a spring animation for the first vertical position
+const y1 = useSpring(
+    // Transform scrollYProgress into a range for the animation
     useTransform(scrollYProgress, [0, 0.8], [50, svgHeight]),
     {
-      stiffness: 500,
-      damping: 90,
+        // Spring physics parameters
+        stiffness: 500, // Determines how stiff the spring is
+        damping: 90,    // Determines how much the spring oscillates
     }
-  );
-  const y2 = useSpring(
+);
+
+// Create a spring animation for the second vertical position
+const y2 = useSpring(
+    // Transform scrollYProgress into a range for the animation
     useTransform(scrollYProgress, [0, 1], [50, svgHeight - 200]),
     {
-      stiffness: 500,
-      damping: 90,
+        // Spring physics parameters
+        stiffness: 500, // Determines how stiff the spring is
+        damping: 90,    // Determines how much the spring oscillates
     }
-  );
+);
+
 
   return (
     <motion.div

@@ -39,19 +39,30 @@ const RecentProjects = () => {
                 {des}
               </p>
               <div className="flex items-center justify-between mt-7 mb-3">
+                
+                {/* 
+                  This component renders a horizontal list of icons with a flexbox layout.
+                  Each icon is displayed in a circular container with a border and background color.
+                  The icons are positioned using a transform to create a staggered effect.
+                */}
+
                 <div className="flex items-center">
+                  {/* Map through the iconLists array to create a div for each icon */}
                   {iconLists.map((icon, index) => (
                     <div
-                      key={index}
+                      key={index} // Unique key for each icon to help React identify which items have changed
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{
+                        // Apply a horizontal translation based on the index to stagger the icons
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
+                      {/* Render the icon image with padding */}
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>
+
 
               </div>
             </PinContainer>

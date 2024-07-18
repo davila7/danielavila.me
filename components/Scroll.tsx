@@ -125,20 +125,28 @@ const Scroll = () => {
               {item.title}
             </h1>
  
-            <div className="text-sm border-collapse border border-slate-500 rounded-lg p-4  prose prose-sm dark:prose-invert">
+            /**
+            * This component renders a styled container for a blog post item.
+            * It conditionally displays an image if it exists and shows the description.
+            */
+
+            <div className="text-sm border-collapse border border-slate-500 rounded-lg p-4 prose prose-sm dark:prose-invert">
+              {/* Check if the item has an image before rendering the Image component */}
               {item?.image && (
                 <Image
-                  src={item.image}
-                  alt="blog thumbnail"
-                  height="1000"
-                  width="1000"
-                  className="rounded-lg mb-10 object-cover"
+                  src={item.image} // Source of the image
+                  alt="blog thumbnail" // Alternative text for the image
+                  height="1000" // Height of the image
+                  width="1000" // Width of the image
+                  className="rounded-lg mb-10 object-cover" // Styling for the image
                 />
               )}
               <div className='text-lg'>
+                {/* Display the description of the item */}
                 {item.description}
               </div>
             </div>
+
           </div>
         ))}
       </div>
