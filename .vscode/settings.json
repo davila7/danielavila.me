@@ -1,6 +1,6 @@
 {
     "CodeGPT.Autocomplete.suggestionDelay": 1000,
-    "CodeGPT.apiKey": "Google AI Studio",
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
     "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
     "CodeGPT.Autocomplete.enabled": true
 }

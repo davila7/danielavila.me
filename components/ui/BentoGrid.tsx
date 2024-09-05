@@ -69,6 +69,7 @@ const [copied, setCopied] = useState(false); // Initialize `copied` state to fal
     window.open('https://calendly.com/daniel-evu/45min', '_blank');
 
     setCopied(true)
+    // hola
   }
   return (
     <div
