@@ -81,6 +81,7 @@ const y2 = useSpring(
           }}
           className="ml-[27px] h-4 w-4 rounded-full border border-netural-200 shadow-sm flex items-center justify-center"
         >
+          {/* Animated circle */}
           <motion.div
             transition={{
               duration: 0.2,

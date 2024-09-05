@@ -1,5 +1,6 @@
 {
     "CodeGPT.Autocomplete.suggestionDelay": 1000,
-    "CodeGPT.apiKey": "OpenAI",
-    "CodeGPT.Autocomplete.provider": "Mistral - codestral-latest"
+    "CodeGPT.apiKey": "Google AI Studio",
+    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
+    "CodeGPT.Autocomplete.enabled": true
 }
